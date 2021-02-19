@@ -9,14 +9,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+  ></script>
 </head>
 <body>
-    <div class="jumbotron">
-  <h1 class="display-4">Project Tracker</h1>
-  <p class="lead">Use me to track your projects</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="jumbotron custom-jumbotron">
+      <h1 class="display-4">Project Tracker</h1>
+      <p class="lead">Use me to track your projects</p>
+      <hr class="my-4">
+      <p>Create your project tracker</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+  <div class = "form">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Project Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Project Type</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>JS</option>
+        <option>CSS</option>
+        <option>HTML</option>
+        <option>JQUERY</option>
+        <option>API</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Time Due</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option value ="MAM">Monday AM</option>
+        <option value = "MPM">Monday PM</option>
+        <option value = "TUAM">Tuesday AM</option>
+        <option value = "TUPM">Tuesday PM</option>
+        <option value = "WAM">Wednesday AM</option>
+        <option value="WPM">Wednesday PM</option>
+        <option value="ThAM">Thursday AM</option>
+        <option value="ThPM">Thursday PM</option>
+        <option value="FAM">Friday AM</option>
+        <option value="FPM">Friday PM</option>
+        <option value="SAM">Saturday AM</option>
+        <option value="SPM">Saturday PM</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="hourlyrate">Hourly Rate</label>
+      <textarea class="form-control" id="hourlyrate" rows="1">$</textarea>
+    </div>
+  </div>
+
+
+  <div class = "dropdowns">
+
+
+
+
+  </div>
+
+ 
 
 </div>
 </body>
